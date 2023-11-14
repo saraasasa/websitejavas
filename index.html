@@ -1,0 +1,663 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>Welcome To Libya</title>
+    <!-- Responsive for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+    <header> <!-- header -->
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-md navbar-light bg-light  fixed-top " style="  height: 80px;opacity: 0.6;">
+        <div class="container-fluid ">
+          <input type="image" src="images/images (1).png" class="  rounded-circle mx-3 shadow" alt="pic" height="65px" width="65px">
+          <a class="navbar-brand text-info m-3" href="#" style="border-right:1px solid #000000; padding-right: 10px; font-weight: bold;">Libya</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-muted" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-muted" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <button class="nav-link dropdown-toggle active text-muted border-2 border-dark rounded-3" href="#" id="nav-Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Trips
+                </button>
+                <ul class="dropdown-menu mt-3  fade " aria-labelledby="nav-Dropdown">
+                  <li><a class="dropdown-item text-muted" target="_blank" href="">Lebdah</a></li>
+                  <li><a class="dropdown-item text-muted" target="_blank" href="">Shahat</a></li>
+                  <li>
+                    <hr class="dropdown-divider bg-muted">
+                  </li>
+                  <li><a class="dropdown-item text-muted" target="_blank" href="">Sabratha</a></li>
+                  <li><a class="dropdown-item text-muted" target="_blank" href="">Sousse</a></li>
+                  <li><a class="dropdown-item text-muted" target="_blank" href="">MORE ...</a></li>
+
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-dark">About</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control m-3 border-3 border-dark rounded-3" type="search" placeholder="Search" aria-label="Search">
+
+            </form>
+            <form class="d-flex">
+              <button class=" navbtn btn bg-dark text-white me-3 border-3 border-dark rounded-3 shadow-lg" type="submit">Search</button>
+              <button class="navbtn btn bg-dark text-white border-3 border-dark rounded-3 shadow-lg" type="button" data-bs-toggle="modal" data-bs-target="#myModal">Login</button>
+            </form> <!-- /form -->
+          </div> <!-- /navbar-collapse -->
+
+        </div>
+      </nav>
+      <!-- /navbar -->
+    </header> <!-- /header -->
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-dark ">
+            <h5 class="modal-title text-light shadow-lg font-weight-bolder" id="staticBackdropLabel">Login</h5>
+            <button type="button" class="btn btn-close bg-light " data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <!-- form -->
+            <form>
+              <div class="m-3">
+                <label class="form-label text-dark">Email address</label>
+                <input type="email" class="form-control text-dark border-3 border-dark rounded-2" aria-describedby="emailHelp">
+                <p class="form-text text-dark">We'll never share your email with anyone else.</p>
+              </div>
+              <div class="m-3">
+                <label class="form-label text-dark">Password</label>
+                <input type="password" class="form-control text-dark border-3 border-dark rounded-2">
+              </div>
+              <div class="m-3 form-check">
+                <div class="form-check form-switch">
+                  <input class="form-check-input bg-info" type="checkbox" role="switch" checked="">
+                  <label class="form-check-label text-dark" for="flexSwitchCheckChecked">Remmember me</label>
+                </div>
+              </div> <!-- /form check -->
+
+            </form>
+            <!-- /form -->
+            <div class="modal-footer d-flex  justify-content-between">
+              <button type="submit" class="btn btn-dark text-light">Login</button>
+              <button type="button" class="btn btn-dark text-light" data-bs-dismiss="modal">Close</button>
+            </div> <!-- /model-footer -->
+          </div> <!-- /model-body -->
+        </div> <!-- /modal-content -->
+      </div> <!-- /modal-dialog -->
+    </div> <!-- /modal -->
+
+    
+    <aside>
+      <div class="container-fluid p-0 " style="position: relative;">
+
+        <div class="d-flex flex-column justify-content-between ms-auto" style="position: fixed;z-index: 90;top: 200px;right:20px;">
+          <div class="aside-icon "><a href="#"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-whatsapp-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-twitter-square"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-linkedin"></i></a></div>
+          <div class="aside-icon "><a href="#"><i class="fab fa-instagram-square"></i></a></div>
+        </div>
+    </div></aside>
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active" aria-label="Slide 1" aria-current="true"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" aria-label="Slide 2" class=""></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="images/تنزيل (5).jpeg" alt="labdah" class="d-block w-100" style="height: 550px;">
+          <div class="carousel-caption">
+            <h1>Lebdah</h1>
+            <p>We had such a great time in Libya!</p>
+            <a href="#" class="btn btn-dark text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/images.jpeg" alt="Shahat" class="d-block w-100" style="height: 550px;">
+          <div class="carousel-caption">
+            <h1>Shahat</h1>
+            <p>Thank you, Shahat!</p>
+            <a href="#" class="btn btn-dark text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/images (1).jpeg" alt="Sabratha" class="d-block w-100" style="height: 550px;">
+          <div class="carousel-caption">
+            <h1>Sabratha</h1>
+            <p>We love this city!</p>
+            <a href="#" class="btn btn-dark text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="images/images (2).jpeg" alt="Sousse" class="d-block w-100" style="height: 550px;">
+          <div class="carousel-caption">
+            <h1>Sousse</h1>
+            <p>We love this city!</p>
+            <a href="#" class="btn btn-dark text-white text-shadow" target="_blank">Visit Us</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- /carousel -->
+    
+    <!-- basic card -->
+    <section class="cards">
+
+      <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(218, 218, 218);">
+        <div class="card-body">
+          <h2 class="card-title title">Welcome</h2>
+          <p class="card-text">Are you planning to visit Libya? We offer the ultimate tour in Libya, covering Lebdah,
+            Shahat,Sabratha and Sousse. From a one day trip to a 10 day dream vacation, we will take care of all your needs. book hotels. 24/6
+            Customer Service. .</p>
+          <a href="#" class="btn btn-dark text-light  btn-lg m-auto">Learn more</a>
+        </div>
+      </div>
+      <!-- /card -->
+      <hr>
+      <!-- collapse Accordion-->
+      <div class="mx-auto my-3 p-5  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(211, 211, 211);">
+        <h1>Popular destinations in Libya</h1>
+      </div>
+      <div class="accordion" id="accordioncollapse">
+        <div class="accordion-item">
+          <h2 class="accordion-header " id="head1">
+            <button class="accordion-button collapsed btn-outline-info text-info title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style="font-size: 20px;">
+           Lebdah
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="head1" data-bs-parent="#accordioncollapse">
+            <div class="accordion-body border-info text-secondary">
+              Major tourist destinations include the millennia-old monuments in the labdah .</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="head2">
+            <button class="accordion-button collapsed btn-outline-info text-light title shadow-lg " type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Shahat
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="head2" data-bs-parent="#accordioncollapse">
+            <div class="accordion-body border-info text-secondary">
+              Shahat is a town in the Jabal Akhdar region in northeastern Libya.  Cyrene was located in the same area in ancient times.  It is located 21 kilometers (13 miles) east of Al Bayda.  Shahat is connected to Derna by two roads, the first passes through the town of Al-Qubba, which is a mountain road, and the second is a coastal road that passes through Sousse and Ras Al-Hilal.
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="head3">
+              <button class="accordion-button collapsed btn-outline-info text-info  shadow-lg title" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Sousse
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="head3" data-bs-parent="#accordioncollapse">
+              <div class="accordion-body border-info text-secondary">
+                Sousse is a small Libyan city located on the Mediterranean coast in the Green Mountain, 30 km east and north of the city of Al Bayda. The city is located on the ruins of the ancient city of Apollonia, which is considered an open archaeological museum.  The city of Sousse is located in the Jebel Akhdar district.
+            </div>
+          </div>
+
+          <!-- /collapse -->
+          <hr>
+          <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(218, 218, 218);">
+            <h1>Translate From Arabic To English</h1>
+          </div>
+          <!-- card1 -->
+          <div class="card p-3   shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(219, 219, 219);">
+            <div class="card-body">
+              <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en" target="_blank" rel="noopener">Press Here</a></h4>
+              <button class="btn btn-light text-dark border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg " onclick="copyToClipboard('sentence')" id="btnCopy" style="font-size: 18px;">
+                Copy
+              </button>
+              <br>
+              <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" placeholder="translate:" name="text"></textarea>
+            </div>
+          </div>
+          <!-- /card1 -->
+          <hr>
+          <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(214, 212, 212);">
+            <h1>Translate From Arabic To Frensh</h1>
+          </div>
+          <!-- card2 -->
+          <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(231, 231, 231);">
+            <div class="card-body">
+              <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en&amp;sl=ar&amp;tl=fr&amp;op=translate" target="_blank" rel="noopener">Press Here</a></h4>
+              <button class="btn btn-light text-dark border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg" onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px;">
+                Copy
+              </button>
+              <br>
+              <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" placeholder="translate:" name="text"></textarea>
+            </div>
+          </div>
+          <!-- /card2 -->
+          <hr>
+          <div class="mx-auto mt-3 p-2  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(206, 206, 206);">
+            <h1>Translate From Arabic To German</h1>
+          </div>
+          <!-- card3 -->
+          <div class="card p-3  text-white shadow-lg" style="border-top-left-radius: 0; border-top-right-radius:0 ;background-color: rgb(219, 219, 219);">
+            <div class="card-body">
+              <h4 class="card-title ">ًWrite and Translate <a href="https://translate.google.com.eg/?hl=en&amp;sl=ar&amp;tl=de&amp;op=translate" target="_blank" rel="noopener">Press Here</a></h4>
+              <button class="btn btn-light text-dark border border-2 btntranslate .btntranslate::before .btntranslate::after shadow-lg" onclick="copyToClipboard('sentence')" id="btncopy" style="font-size: 18px;">
+                Copy
+              </button>
+              <br>
+              <textarea id="sentence" class="form-control mx-auto mt-3" rows="5" placeholder="translate:" name="text"></textarea>
+            </div>
+          </div>
+          <!-- /card3 -->
+
+    </div></div></section> <!-- /cards -->
+    <hr class="my-4">
+    <div class="fixed-img fixed-image1"></div>
+    <!-- tours -->
+    <section class="tours">
+      <div class="mx-auto mb-3 p-3  text-light text-center text-shadow rounded-3 shadow-lg " style="background-color: rgb(204, 204, 204);">
+        <h1 class="title" style="font-size: 40px;">Popular destinations in Libya</h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-around pb-5 ">
+          <!-- cairo card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/images (24).jpeg" class="card-img-top shadow w-100">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /cairo card -->
+          <!-- Alex card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/images (1).jpeg" class="card-img-top shadow" alt=" pic">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /Alex card -->
+          <!-- Luxor card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/images (22).jpeg" class="card-img-top shadow" alt=" pic">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /Luxor card -->
+          <!-- Aswan card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/images (23).jpeg" class="card-img-top shadow" alt=" pic">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /Aswan card -->
+          <!-- The New Administrative Capital  card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/images (24).jpeg" class="card-img-top shadow" alt=" pic">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /cairo card -->
+          <!-- sharm card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/تنزيل (2).jpeg" class="card-img-top shadow" alt=" pic">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /sharm card -->
+          <!-- siwa card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/تنزيل (3).jpeg" class="card-img-top shadow" alt=" pic">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /siwa card -->
+          <!-- Hurghada card -->
+          <div class="card cardover bg-light text-info col-lg-3 col-md-4 col-sm-6 m-1 mt-5 shadow">
+            <input type="image" src="images/تنزيل (4).jpeg" class="card-img-top shadow" alt=" pic">
+            <div class="card-body">
+              <h5 class="card-title">Lebdah</h5>
+              <p class="card-text">Antiquities of Libya</p>
+              <button class="btn btn-secondary text-light mx-auto d-block">Know More</button>
+            </div>
+          </div>
+          <!-- /Hurghada card -->
+        </div> <!-- /row cards -->
+      </div> <!-- /container -->
+    </section>
+
+    <div class="fixed-img fixed-image2"></div>
+    <hr class="my-4">
+    <!-- شكر -->
+    <!-- thanks card-->
+    <div class="card p-3  text-white shadow-lg" style="background-color: rgb(196, 196, 196);">
+      <h2 class="text-center text-light m-3 title" style="font-size: 40px;">Thanks For</h2>
+    </div>
+
+    <section class="wrapper">
+      <div class="container" style="width: 100%; min-height: 500px;">
+
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('./images/download.jpg');">
+              <!-- <img class="card-img d-none" src="images/download.jpg"> -->
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+
+                  <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                  <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="images/download.jpg" style="width:100px">
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">ُEng. Mohammed Ismail "som3a :)"</h6>
+                      <small>Director of UI/UX</small>
+                    </div>
+                  </div>
+                </div> <!-- card-footer
+          </div> <!-- /card-img-overlay -->
+              </div> <!-- /card -->
+            </div> <!-- /card3 -->
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+            <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('images/mo.jpg');">
+              <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="All thanks and appreciation">
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+
+                  <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                  <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="images/mo.jpg" style="width:100px">
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Eng. Islam Mohammed</h6>
+                      <small>Director of UI/UX</small>
+                    </div>
+                  </div>
+                </div> <!-- card-footer -->
+              </div> <!-- /card-img-overlay -->
+            </div> <!-- /card -->
+          </div> <!-- /card3 -->
+          <div class="col-sm-12 col-md-6 col-lg-4 mb-4 card3">
+            <div class="card card-hover text-white card-has-bg click-col thankcard" style="background-image:url('images/is.jpg');">
+              <!-- <img class="card-img d-none" src="https://source.unsplash.com/600x900/?tree,nature" alt="All thanks and appreciation"> -->
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+
+                  <h4 class="card-title mt-0 "><a class="text-white" herf="#">All thanks and appreciation</a></h4>
+                  <small><i class="far fa-clock"></i> October 15, 2020</small>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <img class="mr-3 rounded-circle" src="images/is.jpg" alt="Generic placeholder image" style="width:100px">
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">ُEng.Sally Maraush</h6>
+                      <small>Director of UI/UX</small>
+                    </div>
+                  </div>
+                </div> <!-- card-footer -->
+              </div> <!-- /card-img-overlay -->
+            </div> <!-- /card -->
+          </div> <!-- /card3 -->
+
+        </div> <!-- /row -->
+
+      </div>
+    </section>
+
+    <!-- /thanks card --&gt; -->
+
+    <hr class="my-4">
+    <section class="container light"> <!-- postcards news -->
+      <div class="container py-2">
+        <div class="h1 text-center  title" id="pageHeaderTitle" style="font-size: 30px;">Libya NEWS</div>
+
+        <article class="postcard d-flex light blue"> <!-- 1st card -->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/images (1).jpeg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Fri, Nov 9th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">At the meeting, the members of the committee presented their comments on the work completed in the museum’s development work, especially with regard to the digital transformation of the museum and reviewing the museum’s digital transformation work and the evidence for these works in accordance with international standards under the supervision of the Libyan Telecommunications Holding Company.
+              </div>
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>30 mins.</li>
+              <li class="tag__item play blue">
+                <a href="#" class="text-dark"><i class="fas fa-play mr-2 text-dark"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /1st card -->
+        <article class="postcard d-flex light red"> <!-- 2nd card -->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/images (3).jpeg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title blue"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Fri, Nov 9th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              On the tenth of last September, the Mediterranean storm Daniel struck eastern Libya, and its exceptional rains (400 mm) caused the cities of the Green Mountain to drown, while the accumulation of water led to the collapse of the two dams in Wadi Derna and the disappearance of a third of the city from the map, after the buildings were uprooted from their foundations.  Its inhabitants were swept towards the sea, and all the bridges connecting the two banks of Derna and other cities collapsed as well, in addition to less damage in the higher areas.
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>30 mins.</li>
+              <li class="tag__item play red">
+                <a href="#" class="text-dark"><i class="fas fa-play mr-2 text-dark"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /2nd card -->
+        <article class="postcard d-flex  light green"> <!-- 3rd card -->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/تنزيل.jpeg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title green"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Fri ,Nov 9th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              Benghazi, November 9, 2023 (Al Anbaa Libya) - The Reconstruction and Stabilization Committee in the city of Benghazi announced the completion of the work of connecting and gradually opening the valves feeding the main drinking water line feeding the city.  The committee confirmed on its official Facebook page that water will return to normal in the city in the coming hours.  These works came within the framework of relaying a line
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>30 mins.</li>
+              <li class="tag__item play green">
+                <a href="#" class="text-dark"><i class="fas fa-play mr-2 text-dark"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /3rd card -->
+        <article class="postcard d-flex light yellow "> <!-- 4th card -->
+          <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="images/تنزيل (1).jpeg" alt="Image Title">
+          </a>
+          <div class="postcard__text t-dark">
+            <h1 class="postcard__title yellow"><a href="#">Podcast Title</a></h1>
+            <div class="postcard__subtitle small">
+              <time datetime="2020-05-25 12:00:00">
+                <i class="fas fa-calendar-alt mr-2"></i>Fri, Nov 9th 2023
+              </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+              The Projects and Technical Affairs Department of the Prime Minister’s Office in the Southern Region visited Sebha International Airport, to inspect the site and prepare the necessary assessments for the maintenance of the airport, the control tower and some facilities according to international standards and specifications, so that the airport administration can resume international flights, which are scheduled to start at Cairo Airport in mid-April.  current month
+            <ul class="postcard__tagbox">
+              <li class="tag__item"><i class="fas fa-tag mr-2"></i>Podcast</li>
+              <li class="tag__item"><i class="fas fa-clock mr-2"></i>30 mins.</li>
+              <li class="tag__item play yellow">
+                <a href="#" class="text-dark"><i class="fas fa-play mr-2 text-dark"></i>Play Episode</a>
+              </li>
+            </ul>
+          </div>
+        </article> <!-- /4th card -->
+      </div> <!-- /container -->
+    </section> <!-- /postcard section -->
+    <!-- join us -->
+    <h2 class="text-center text-light title" style="font-size: 30px;">Join Us</h2>
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(180, 179, 179);">
+          <div class="card-body text-secondary d-flex flex-column text-center">
+            <h3 class="card-title mb-4">Subscribe Now
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/twetter.jpg" type="image" alt="icon">
+            <a href="#" target="_blank" class="card-link h4 text-secondary  ">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(173, 173, 173);">
+          <div class="card-body text-secondary d-flex flex-column text-center">
+            <h3 class="card-title mb-4">Follow
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/whats.jpg" type="image" alt="icon">
+            <a href="" target="_blank" class="card-link h4 text-secondary ">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px;  box-shadow: -5px -5px 20px 10px rgb(180, 180, 180)">
+          <div class="card-body text-secondary d-flex flex-column text-center">
+            <h3 class="card-title mb-4">Like the page
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/in.jpg" type="image" alt="icon">
+            <a href="" target="_blank" class="card-link h4 text-secondary ">Go to link</a>
+          </div>
+        </div>
+        <div class="card m-3 bg-light " style="width: 250px; box-shadow: -5px -5px 20px 10px rgb(185, 185, 185)">
+          <div class="card-body text-secondary d-flex flex-column text-center">
+            <h3 class="card-title mb-4">watch vedios
+            </h3>
+            <input class="logoicon mb-2 rounded-4" style="align-self: center;" src="images/insta.jpg" type="image" alt="icon">
+            <a href="" target="_blank" class="card-link h4 text-secondary ">Go to link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /join us -->
+    <!-- footer -->
+    <footer class=" text-light pb-5 ">
+      <div class="container-fluid">
+        <div class="row text-center">
+          <div class="col-md-4">
+            <hr class=" border-top border-3 border-light my-3">
+            <h5><img src="images/images (1).png"  class="logoicon rounded-circle">&nbsp; Good Company</h5>
+            <hr class="border-top border-3 border-light my-3">
+            <address>
+              <p>Tel : 000-000-000</p>
+              <p>Address : Libya</p>
+              <p>Fax : 000-000-000</p>
+            </address>
+          </div>
+          <div class="col-md-4">
+            <hr class="border-top border-3 border-light my-3">
+            <h5><img src="images/images (1).png" class="logoicon rounded-circle ">&nbsp; Important links</h5>
+            <hr class="border-top border-3 border-light my-3">
+            <p><a href="#" class="text-dark">Visit Us</a></p>
+            <p><a href="#" class="text-dark">Take alook</a></p>
+            <p><a href="#" class="text-dark">Your health is more important</a></p>
+          </div>
+          <div class="col-md-4">
+            <hr class="border-top border-3 border-light my-3">
+            <h5><img src="images/images (1).png" alt="good pic" class="logoicon rounded-circle">&nbsp; Vision</h5>
+            <hr class="border-top border-3 border-light my-3">
+            <p>Serveices for all </p>
+            <p>Provide best serveices</p>
+            <p>you will be better than before</p>
+          </div>
+        </div>
+      </div>
+      <hr class="border-top border-3 border-light my-3">
+      <span class="text-center d-block title">Copyright © 2023 Sara Amr Mohammed, Good Company. All
+        rights</span>
+      <hr class="border-top border-3 border-light my-3">
+      <!-- /footer -->
+      <!-- js -->
+    <!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.bundle.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+          return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+        </script>
+        <script type-text="javascript">
+          function copyToClipboard(id) {
+                  var from = document.getElementById(id);
+                  var range = document.createRange();
+                  window.getSelection().removeAllRanges();
+                  range.selectNode(from);
+                  window.getSelection().addRange(range);
+                  document.execCommand('copy');
+                  window.getSelection().removeAllRanges();
+                  window.alert("تم نسخ النص.");
+           }
+          </script>
+</footer></body></html>
